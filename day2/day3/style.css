@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+.item-1{
+    background-color: lightblue;
+    
+}
+
+.item-2{
+    background-color: lightgreen;
+    padding: 5px;
+    margin-top: 20px;
+}
