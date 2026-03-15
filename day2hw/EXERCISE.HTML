@@ -21,12 +21,7 @@
    <input type="password" name="password" id="password" placeholder="Enter Password">
    <br>
    <br>
-   <!-- Gender:
-   <br>
-   <input type="radio"> Male
-   <br>
-   <input type="radio"> Female
-   <br> -->
+   
    <label>Gender:</label><br>
    <input type="radio" name="gender">Male <br>
    <input type="radio" name="gender">Female
@@ -45,6 +40,11 @@
     <select name="country" id="country">
         <option value="">select country...</option>
         <option value="india">india</option>
+        <option value="America">America</option>
+        <option value="Australia">Australia</option>
+        <option value="Russia">russia</option>
+        <option value="JAPAN">Japan</option>
+
     </select>
 
     <br><br>
@@ -52,7 +52,16 @@
     <label for="text">Address:</label>
     <br>
     <textarea name="address" id="address" rows="5" cols="20"></textarea>
+    
     <br>
+    <br>
+
+  <form action="/upload" method="post" enctype="multipart/form-data">
+  <label for="imageUpload">Upload an image:</label> <br>
+  <input type="file" id="imageUpload" name="image" accept="image/*">
+  
+</form>
+<br>
     <button>Ragister</button>
     <button>Clear</button>
 
